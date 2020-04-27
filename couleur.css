@@ -1,0 +1,76 @@
+body {
+	padding-top:150px;
+	margin-top:80px;
+	padding-bottom:80px;
+	margin-bottom:50px;
+}
+
+.couverture 
+{
+	
+	background:url("photos/couver2.png") no-repeat;
+	background-size:cover;
+}
+
+.favori{
+font-family:Edwardian Script ITC;
+font-size:60px;	
+}
+.slogan {
+	position:relative;
+	margin-top:100px;
+	margin-right:80px;
+}
+.bold
+{
+font-family:Broadway;
+font-size:20px;	
+}
+ .corps 
+ {
+
+ }
+ 
+ .entete
+ {
+	 margin-bottom:100px;
+ }
+ 
+ #login
+ {
+background:url("photos/groupe.jpg") no-repeat;
+background-size:cover;
+	
+ }
+ 
+ .login {
+position:relative;
+margin-top:100px;
+margin-left:100px;
+border:1px solid white;
+padding:10px;
+height:400px;
+box-shadow: -7px -7px 7px 7px ;	
+border-radius:10px; 
+ }
+ .gris {
+background-color:rgba(209,209,209,0.5);	 
+ }
+ 
+ .traitement input {
+	 border:none;
+ }
+ 
+ .essai {
+	border:solid black 1px; 
+ }
+ 
+ .bas {
+margin-top:250px;
+border-top:black 2px solid;
+ }
+ 
+ #principal
+ {
+	 
+ }
