@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="uft-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="couleur.css" rel="stylesheet" type="text/css">
+  <title>  job_for_all  </title>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+<style>
+
+</style>
+ </head>
+ <body>
+ <div class="container"> 
+
+ 
+<div class="fixed-top entete">
+  <div class="bg-light">
+  <img class=" img-fluid rounded-pill" src="photos/logo.png" title="logo"> 
+	<big class="display-1 favori text-danger">J</big><small class="favori display-4 ">ob</small> <big class="display-1 favori text-danger">F</big>
+	<small class="favori display-4 ">or</small> <big class="display-1 favori text-danger">A</big><small class="favori display-4 ">ll</small><br/>
+
+  </div>
+  <header class="m-auto ">   
+   <nav class="nav  navbar  bg-info navbar-dark navbar-expand-md mb-4" >
+       <div class="collapse navbar-collapse" id="barre">
+        <ul class="navbar-nav mr-auto" style="font-family:Baskerville Old Face; font-size:20px">
+         <li class="nav-item active"> <a class="nav-link" href="index.html">  <span class="fa fa-home" aria-hidden="true" >Acceuil</span>  </a> 
+		 </li>
+		 <li class="nav-item dropdown"> 
+		  <a class="nav-link dropdown-toggle" href="page_acceuil.html" id="postes_vacants" data-toggle="dropdown"
+		  aria-haspopup="true" aria-expanded="false"> <span class="fa fa-chair"> </span>Offres d'emploi </a> 
+		 <div class="dropdown-menu" aria-labelledby="postes_vacants">
+		    <a class="dropdown-item" href="offre_liste.html#commercial"> <span class="fa fa-file-medical"></span>  commercial </a>
+		    <a class="dropdown-item" href="offre_liste.html#enseignement"> <span class="fa fa-graduation-cap"></span> Enseignement  </a>
+			<a class="dropdown-item" href="offre_liste.html#secretariat">  <span class="fa fa-user-edit"></span>Secretariat </a> 	   
+			<a class="dropdown-item" href="offre_liste.html#sante"> <span class="fa fa-file-medical"></span>  Sante </a>
+			<a class="dropdown-item" href="offre_liste.html#comptable">  <span class="fa fa-landmark"></span> comptable  </a>
+			<a class="dropdown-item" href="offre_liste.html#menagerie"> <span class="fa fa-file-medical"></span>  menagerie </a>
+			<a class="dropdown-item" href="offre_liste.html#restauration"> <span class="fa fa-file-medical"></span>  restauration </a>
+			<a class="dropdown-item" href="offre_liste.html#gestion/gerance"> <span class="fa fa-file-medical"></span> gestion/gerance   </a>
+			<a class="dropdown-item" href="offre_liste.html#caissier"> <span class="fa fa-file-medical"></span>  caissier </a>
+			<a class="dropdown-item" href="offre_liste.html#ouvrier"> <span class="fa fa-file-medical"></span>  ouvrier </a>
+			<a class="dropdown-item" href="offre_liste.html#vigile"> <span class="fa fa-file-medical"></span>  Vigile </a>
+			<a class="dropdown-item" href="offre_liste.html#autres">  <span class="fa fa-newspaper-o"></span> Autres </a>
+		  </div>
+		  </li>
+		  
+		   <li class="nav-item"> <a class="nav-link" href="demand_emploi.html"> <span class="fa fa-address-book-o"></span> Demandeurs d'emploi  </a> 
+		  </li>
+		  <li class="nav-item dropdown"> 
+		   <a class="nav-link dropdown-toggle" href="" id="publiez" data-toggle="dropdown"
+		  aria-haspopup="true" aria-expanded="false"> <span class="fa fa-upload"></span> Publiez ici  </a> 
+		  <div class="dropdown-menu" aria-labelledby="publiez">
+		    <a class="dropdown-item" href="poste_cv.html"> <span class="fa fa-file"></span>une demande d'emploi </a>
+			<a class="dropdown-item" href="poste_boulot.html"> <span class="fa fa-chair"></span>un poste a pourvoir  </a>
+		      
+		   </div>
+		  </li>
+		  <li class="nav-item dropdown"> 
+		  <a class="nav-link dropdown-toggle" href="page_acceuil.html" id="admin" data-toggle="dropdown"
+		  aria-haspopup="true" aria-expanded="false"> <span class="fa fa-chair"> </span>Admin </a> 
+		 <div class="dropdown-menu" aria-labelledby="admin">
+		    <a class="dropdown-item" href="traitement.html"> <span class="fa fa-file-medical"></span> liste sous traitement</a>
+		    <h6 class="dropdown-header"> Supprimer</h6>
+		    <a class="dropdown-item" href="supprimer.html?type=entreprise"> <span class="fa fa-graduation-cap"></span> Une entreprise  </a>
+			<a class="dropdown-item" href="supprimer.html?type=individu">  <span class="fa fa-user-edit"></span>Un demandeur d'emploi </a> 	   
+			<a class="dropdown-item" href="supprimer.html?type=offre"> <span class="fa fa-file-medical"></span>  une offre </a>
+			<a class="dropdown-item" href="supprimer.html?type=demande">  <span class="fa fa-balance-scale"></span> une demande  </a>
+			
+		  </div>
+		  </li>
+		 </ul>
+		 <a class="btn btn-primary" href="login.html" title="deconnectez-vous" > <span class="fa fa-signal"></span>connectez vous  </a>
+        </div>
+      </nav> 
+    </header>
+	</div>
+<form class="col-md-12 bg-light" enctype="multipart/form-data" method="post" action="reception_boulot.php">
+  <p class="text-center bold text-danger" style="font-size:40px"> Offrez un boulot </p>
+ 
+   <div class="form-group row ">
+    <label for="nom" class="col-md-3 col-form-label bold"> Nom : </label>
+     <div class="col-md-6 col-sx-9">
+     <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom de l'entreprise ou de l'institut">
+     </div>
+   </div>
+  <div class="form-group row">
+    <label for="domaine" class="col-md-3 col-form-label bold"> Domaine d'intervention:</label>
+     <div class="col-md-6 col-sx-9">
+      <select class="custom-select" id="domaine" name="domaine">
+	   <option> quel est votre domaine d'intervention ? </option>
+	   <option> Enseignement </option>
+	   <option> Sante </option>
+	   <option> Gestion  </option>
+	   <option> informatique </option>
+	   <option>Banque et Finance  </option>
+	   <option> Marketing </option>
+	   <option> commerce </option>
+	   <option> hotelerie </option>
+	   <option> restauration </option>
+	   <option> couture </option>
+	   <option> securite </option>
+	   <option> travaux manuels </option>
+	   <option>Autre </option>
+	  </select>
+     </div>
+   </div>
+   <div class="form-group row">
+    <label for="interet" class="col-md-3 col-form-label bold"> A la recherche de   :</label>
+     <div class="col-md-6 col-sx-9">
+      <select class="custom-select" id="interet" name="interet">
+	   <option> que recherchez vous ? </option>
+	   <option> Enseignant </option>
+	   <option> comptable </option>
+	   <option> agent de sante </option>
+	   <option> Secretaire </option>
+	   <option> commercial </option>
+	   <option>menagere/aide-maison </option>
+	   <option>caissier</option>
+	   <option> gestionnaire/gerant(e)</option>
+	    <option> cuisinier </option>
+		<option> vigile </option>
+		<option> ouvrier </option>
+	   <option> Autre </option>
+	  </select>
+     </div>
+   </div>
+   <div class="form-group row" id="mat_block" >
+    <label for="nom" class="col-md-3 col-form-label bold"> Choisissez  la matiere : </label>
+     <div class="col-md-6 col-sx-9">
+      <select class="custom-select" id="matiere" name="matiere">
+	   <option> Choisissez la matiere </option>
+	   <option> Anglais </option>
+	   <option> Allemand </option>
+	   <option> Francais </option>
+	   <option>Histoire/geo</option>
+	   <option> Math </option>
+	   <option> Physique-Chimie </option>
+	   <option>Philosophie </option>
+	   <option> Compabilite</option>
+	    <option> droit </option>
+		<option> Matieres techniques </option>
+	  </select>
+     </div>
+   </div>
+    <div class="form-group row" id="choix_block">
+    <label for="choix" class="col-md-3 col-form-label bold"> precisez ce que vous recherchez : </label>
+     <div class="col-md-6 col-sx-9">
+     <input type="text" class="form-control" id="choix" name="choix">
+     </div>
+   </div>
+   <div class="form-group row">
+    <label for="pays" class="col-md-3 col-form-label bold"> Pays :</label>
+     <div class="col-md-6 col-sx-9">
+      <select class="custom-select" id="pays" name="pays">
+	   <option>Burkina Faso </option>
+	   <option>Benin </option>
+	   <option>Cote D'Ivoire </option>
+	   <option>Ghana </option>
+	   <option>Niger </option>
+	   <option>Nigeria </option>
+	   <option>Autre </option>
+	  </select>
+     </div>
+   </div>
+    <div class="form-group row ">
+    <label for="ville" class="col-md-3 col-form-label bold"> Ville : </label>
+     <div class="col-md-6 col-sx-9">
+     <input type="text" class="form-control" id="ville" name="ville" >
+     </div>
+   </div>
+   <div class="form-group row">
+    <label for="E-mail" class="col-md-3 col-form-label bold"> E-mail :</label>
+     <div class="col-md-6 col-sx-9">
+      <input type="email" class="form-control" name="email" id="email">
+     </div>
+   </div>
+   <div class="form-group row">
+    <label for="phone" class="col-md-3 col-form-label bold"> Numero de Telephone :</label>
+     <div class="col-md-6 col-sx-9">
+      <input type="number" class="form-control" name="phone" id="phone">
+     </div>
+   </div>
+   <div class="form-group row">
+    <label for="photo" class="col-md-3 col-form-label bold"> Ajouter une photo de l'entreprise :</label>
+     <div class="col-md-6 col-sx-9">
+      <input type="file" class="form-control" id="photo" name="photo">
+     </div>
+   </div>
+   <div class="form-group row">
+    <label for="message" class="col-md-3 col-form-label bold"> Votre message :</label>
+     <div class="col-md-6 col-sx-9">
+      <textarea id="message" name="message" rows="6" cols="25" max="150"> plus de details ici </textarea> 
+     </div>
+   </div>
+   <br/>
+  
+
+  <div class="form-group row">
+   <div class="col-md-3">
+    <input  type="submit" class="btn btn-primary " value="Envoyer" />
+    
+  </div>
+  <div class="col-md-3">
+    <input  type="reset" class="btn btn-warning " value="Reinitialiser" />
+    
+  </div>
+  </div>
+  
+  
+ </form>
+ 
+ 
+  
+  <footer class="row gris ml-3 mr-3 bas">
+   <div class="col-4 text-justify">
+    <p>
+     <h3 class="text-center">
+  Qui sommes nous ?
+	 </h3>
+	 Jobforall est une initiative et la propriete de l'entreprise Golden Technology;
+	 SIS a Hamdalaye, Ouagadougou, Burkina Faso. <br/>
+	 C'est une jeune entreprise qui fut creee en 2020 par Mr Gazambe Sekou et ses Collaborateurs a savoir le PDG de 
+	 Best Solar Burkina, Gazambe Nassirou.
+	</p>
+   </div>
+   <div class="col-4 text-justify">
+    <p>
+	 <h3 class="text-center">
+	  Que faisons-nous
+	 </h3>
+	 Golden Technology est un startup de marketing et d'innovation Technologique. il entervient dans la creation de site web
+     et de programme informatique pour faciliter les taches dans de nombreux domaines notamment le domaine educatif. Ainsi , Golden 
+     Technology est proprietaire d'une Plateforme de mise en ligne de bulletins Scolaires. Dans le domaine du marketing son intervention 
+     n'est pas des moindres. En effet il est proprietaire du plus grand site de vente en ligne du Burkina Faso a savoir 
+     Fasobaba.com	 
+	</p>
+   </div>
+   <div class="col-4 text-justify">
+    <p>
+	 <h3 class="text-center">
+	 NOS PARTENAIRES
+	 </h3>
+	 Golden Technology est en partenariat avec : <br/>Best Solar Burkina,BSB <br/>
+	 Enko Ouaga Campus <br/>
+	 Et de nombreuses agences commerciales du 10 YAAR et de ROOD WOOKO 
+	 <h3 class="text-center">
+	 NOS CONTACTS
+	 </h3>
+	 Rejoignez Golden Technology sur : <br/>
+	 <a class="btn btn-primary btn-lg "href="https://www.facebook.com/"> <span class="fa fa-facebook"></span> </a> &nbsp &nbsp
+	 <br/> <br/>
+	 <a class="btn btn-secondary btn-lg "href="#"> <span class="fa fa-telegram"></span> </a>
+	</p>
+   </div>
+
+  </footer>  
+<script>
+ var interet=document.getElementById('interet'),
+ subject=document.getElementById('mat_block'),
+ choix=document.getElementById('choix_block');
+ 
+ document.onmousemove=function(){if(interet.value!=="Enseignant" && interet.value=="Autre"){
+	 subject.className=" d-none"; choix.className="form-group row";
+ } else if (interet.value!=="Autre" && interet.value=="Enseignant"){
+	 subject.className="form-group row"; choix.className="d-none";
+ }
+ 
+ else {subject.className="d-none"; choix.className="d-none";}
+ } ;
+ 
+ 
+ 
+ 
+ 
+	  
+ </script>
+  
+   
+	
+	
+	
+  </div>
+  
+  <script src="bootstrap/dist/js/jquery.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.js"></script>
+	</div>
+ </body>
+</html>
