@@ -73,7 +73,10 @@ border-top:black 2px solid;
 .scroll {
   overflow: auto;
   white-space: nowrap;
-z-index:1000;
+}
+
+nav li
+{z-index:1000;
 }
 
 
