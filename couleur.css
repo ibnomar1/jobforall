@@ -70,20 +70,9 @@ margin-top:250px;
 border-top:black 2px solid;
  }
  
-.scrollmenu {
-  background-color: black;
+.scroll {
   overflow: auto;
   white-space: nowrap;
 }
 
-.scrollmenu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
 
-.scrollmenu a:hover {
-  background-color: #777;
-}
