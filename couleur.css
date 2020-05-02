@@ -82,3 +82,12 @@ nav li
 {display:inline-block; 
 }
 
+.dropdown-item:hover
+{	background-color:rgba(209,209,209,0.5);;
+}
+
+.dropdown:hover .dropdown-menu 
+{
+	display:block;
+}
+
